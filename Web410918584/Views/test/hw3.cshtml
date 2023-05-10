@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "hw3";
+}
+
+<h2>hw3</h2>
+
+<h2>An unordered HTML list</h2>
+@{
+    String[] fruits = { "apple", "banana", "guava", "tomato", "strawberry" };
+}
+<ol>   
+    @foreach(var item in fruits)
+    {
+      <li> @item </li>
+    }
+</ol>
